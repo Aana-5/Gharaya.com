@@ -2,6 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link as RouterLink } from 'react-router-dom';
 import { Grid, Link } from "@mui/material";
+import privacypolicy from "../assets/images/privacypolicy.jpg";
 
 const animatedLinkStyle = {
   fontFamily: 'Candara',
@@ -35,7 +36,7 @@ export const PrivacyPolicy = () => {
       <div className="row justify-content-center mb-4">
         <div className="col-12 col-md-10">
           <img
-            src="../src/assets/images/privacypolicy.jpg"
+            src={privacypolicy}
             alt="main wallpaper"
             className="img-fluid rounded w-100"
             style={{ maxHeight: "17rem", objectFit: "cover" }}

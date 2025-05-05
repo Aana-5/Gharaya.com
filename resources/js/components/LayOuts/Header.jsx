@@ -2,6 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link as RouterLink } from 'react-router-dom';
 import { Grid, Link } from "@mui/material";
+import gharayalogo from '../../assets/images/gharayalogo.png';
 
 export const Header = () => {
   return (
@@ -67,7 +68,7 @@ export const Header = () => {
         <div className="col-12 col-md-6 mb-3 mb-md-0">
           <div className="d-flex align-items-center justify-content-center justify-content-md-start flex-wrap gap-3">
             <div className="custom-card shadow-sm p-2">
-              <img src="../src/assets/images/gharayalogo.png" alt="Logo" className="img-fluid" style={{ maxHeight: "3.2rem" }} />
+              <img src={gharayalogo} alt="Logo" className="img-fluid" style={{ maxHeight: "3.2rem" }} />
             </div>
             <input
               type="text"

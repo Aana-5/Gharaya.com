@@ -2,6 +2,7 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link as RouterLink } from 'react-router-dom';
 import { Grid, Link } from "@mui/material";
+import refund from "../assets/images/refund.jpg";
 
 const animatedLinkStyle = {
     fontFamily: 'Candara',
@@ -35,7 +36,7 @@ export const ReturnRefund = () => {
                 <div className="row justify-content-center mb-4">
                     <div className="col-12 col-md-10">
                         <img
-                            src="../src/assets/images/refund.jpg"
+                            src={refund}
                             alt="main wallpaper"
                             className="img-fluid rounded w-100"
                             style={{ maxHeight: "17rem", objectFit: "cover" }}

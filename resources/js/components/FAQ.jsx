@@ -8,6 +8,7 @@ import {
   Box,
 } from "@mui/material";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
+import main_image from "../assets/images/main_image.jpg";
 
 const faqs = [
   {
@@ -43,7 +44,7 @@ const FAQ = () => {
       {/* <Header/> */}
       <Box
         component="img"
-        src="../src/assets/images/main_image.jpg"
+        src={main_image}
         alt="Fruits Puzzle Image"
         sx={{
           width: "100%",

@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { Box, Typography, Grid, Link } from '@mui/material';
+import TC from '../assets/images/T&C.jpg';
 
 const subheading = {
     fontSize: { xs: '1.3rem', sm: '1.6rem' },
@@ -76,7 +77,7 @@ function TermsAndConditions() {
             >
                 <Box
                         component="img"
-                        src="../src/assets/images/T&C.jpg"
+                        src={TC}
                         alt="Terms & Conditions Image"
                         sx={{
                           height: 350,

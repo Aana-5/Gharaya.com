@@ -5,6 +5,9 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { useTheme } from "@mui/material/styles";
 import { Link as RouterLink } from 'react-router-dom';
+import gharayalogo2 from "../../assets/images/gharayalogo2-removebg-preview.png";
+import applelogo from "../../assets/images/applelogo.png";
+import playstorelogo from "../../assets/images/playstorelogo.png";
 
 const Footer = () => {
 
@@ -88,7 +91,7 @@ const Footer = () => {
                     {/* Logo & Description */}
                     <Grid item xs={12} md={3}>
                         <img
-                            src="../src/assets/images/gharayalogo2-removebg-preview.png"
+                            src={gharayalogo2}
                             alt="Gharaya.com logo"
                             style={{
                                 width: "12.5rem",
@@ -139,7 +142,7 @@ const Footer = () => {
                             rel="noopener noreferrer"
                         >
                             <img
-                                src="../src/assets/images/playstorelogo.png"
+                                src={playstorelogo}
                                 alt="Download on Play Store"
                                 style={{
                                     width: "auto",
@@ -161,7 +164,7 @@ const Footer = () => {
                             rel="noopener noreferrer"
                         >
                             <img
-                                src="../src/assets/images/applelogo.png"
+                                src={applelogo}
                                 alt="Download on App Store"
                                 style={{
                                     width: "auto",
