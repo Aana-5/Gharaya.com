@@ -1,5 +1,6 @@
 import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
+import loginimage1 from '../assets/images/loginimage1.png';
 
 const RegistrationPage = () => {
 
@@ -220,7 +221,7 @@ const RegistrationPage = () => {
                     justifyContent: 'center',
                     alignItems: 'center',
                     textAlign: 'center',
-                    backgroundImage: 'url(../src/assets/images/loginimage1.png)',
+                    backgroundImage: {loginimage1},
                     p: 4,
                 }}
             >
